@@ -7,7 +7,7 @@ These time stamps make ar generate different output for same input every time, w
 Recent versions of GNU binutils and BSD ar af the `-D` flag for deterministic mode that creates the archive with all time stamps set to zero. However, these versions of `ar` are not wide spread yet, and this tool can help with that.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-Inspired by Huskell implementation [ar-timestamp-wiper](https://github.com/nh2/ar-timestamp-wiper)
+Inspired by Haskell implementation [ar-timestamp-wiper](https://github.com/nh2/ar-timestamp-wiper)
