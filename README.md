@@ -5,3 +5,9 @@ This application takes an archive (`.a`) file as created by the Unix `ar` tool, 
 These time stamps make ar generate different output for same input every time, which is problematic if you want to know if the contents actually changed as compared to the last time you created the archive (e.g. in build tools to avoid unnecessary linking).
 
 Recent versions of GNU binutils and BSD ar af the `-D` flag for deterministic mode that creates the archive with all time stamps set to zero. However, these versions of `ar` are not wide spread yet, and this tool can help with that.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+Inspired by Huskell implementation [ar-timestamp-wiper](https://github.com/nh2/ar-timestamp-wiper)
